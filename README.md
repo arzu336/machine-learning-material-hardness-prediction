@@ -1,17 +1,59 @@
-Bu proje, farklı regresyon modellerini kullanarak malzeme sertliğini tahmin etmeyi amaçlamaktadır. Veri setinde lazer gücü, mesafe, hız ve katman kalınlığı gibi değişkenler bulunmaktadır. Çeşitli makine öğrenmesi algoritmaları eğitilerek performansları karşılaştırılmıştır.
+# 🔬 Makine Öğrenmesi ile Malzeme Sertliği Tahmini
 
-Python 3.12.4
+## 📌 Proje Açıklaması
 
-Pandas
+Bu projede, üretim parametrelerine bağlı olarak bir malzemenin sertlik değerini tahmin etmek amacıyla makine öğrenmesi algoritmaları kullanılmıştır.
 
-NumPy
+Lazer gücü, mesafe, hız ve katman kalınlığı gibi değişkenlerin malzeme sertliği üzerindeki etkisi analiz edilerek, en doğru tahmin modelinin geliştirilmesi hedeflenmiştir.
 
-Scikit-Learn
+---
 
-XGBoost
+## 🧠 Kullanılan Teknolojiler ve Yöntemler
 
-Seaborn
+* Python
+* Pandas & NumPy
+* Scikit-learn
+* Matplotlib & Seaborn
 
-Matplotlib
+### 📊 Kullanılan Makine Öğrenmesi Modelleri:
 
-Graphviz
+* Doğrusal Regresyon (Linear Regression)
+* Karar Ağacı Regresyonu (Decision Tree)
+* Rastgele Orman (Random Forest)
+* XGBoost
+
+---
+
+## 📂 Veri Seti
+
+Projede kullanılan veri seti toplam **79 deneysel gözlemden** oluşmaktadır.
+
+Veri setinde bulunan özellikler:
+
+* Lazer Gücü
+* Mesafe
+* Hız
+* Katman Kalınlığı
+* Sertlik (Hedef Değişken)
+
+---
+
+
+
+## 📈 Sonuçlar
+
+* Farklı regresyon modelleri eğitilmiş ve karşılaştırılmıştır.
+* Model performansları aşağıdaki metrikler ile değerlendirilmiştir:
+
+  * R² (Determinasyon Katsayısı)
+  * MSE (Ortalama Kare Hata)
+
+---
+
+## 🚀 Proje Özellikleri
+
+* Veri ön işleme ve temizleme
+* Farklı makine öğrenmesi modellerinin uygulanması
+* Model performans karşılaştırması
+* Grafiklerle sonuçların görselleştirilmesi
+
